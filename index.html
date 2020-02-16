@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" >
+  <head class="full-body">
     <title>Me &mdash; Shakir Uz Zaman Shuvo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,9 +25,50 @@
     <link rel="stylesheet" href="css/style.css">
     
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300"class="full-body">
   
+<style>
 
+  .full-body {
+    animation: pulse 5s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      background-color: #ffffff;
+    }
+    100% {
+      background-color: #e5e5e5;
+    }
+  }
+  .project-title{
+
+    background-color: beige;
+    width: 100%;
+  }
+  .project-title:hover{
+    color: beige;
+    background-color:brown;
+  }
+
+  .full-project{
+    background-color: whitesmoke;
+
+  }
+  .full-project:hover{
+    background-color: wheat;
+    cursor: pointer;
+
+  }
+  .expertise-area:hover{
+    font-weight: bold;
+    color: white;
+  }
+  .link-area:hover{
+    font-weight: bold;
+    color: #0d0cb5;
+  }
+</style>
 
   <div class="site-wrap">
 
@@ -201,91 +242,104 @@
         </div>
 
         
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+        <div id="posts" class="row no-gutter " >
+
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
 
 
-              <h3>PACIFIC INTERIOR ERP SOLUTION</h3>
+              <h3 class="project-title">PACIFIC INTERIOR ERP SOLUTION</h3>
               <p>This is my Pacific One Stop Interior Solution Project. This project is designed to maintain stock( interior products ) and their accountings .Purchase, Transfer, sales, sales return , bill payment , cash return . daily sales report etc are main features</p>
-              <p>PHP , Laravel , MYSQL , AJAX ,JQUERY, SMS GATEWAY, DATATBLE , HTML, CSS, BOOTSTRAP</p>
-              <p class="card-text" >Imgur Profile  : <a href="https://imgur.com/a/Oy171j1">Pacific Interior Solution at a glance </a>
+              <p class="expertise-area">PHP , Laravel , MYSQL , AJAX ,JQUERY, SMS GATEWAY, DATATBLE , HTML, CSS, BOOTSTRAP</p>
+              <p class="card-text  link-area" >Imgur Profile  : <a href="https://imgur.com/a/Oy171j1">Pacific Interior Solution at a glance </a>
 
-            </a>
-          </div> <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            </p>
 
 
-              <h3>Visual Produt Search (VPS)</h3>
+
+
+          </div>
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project ">
+
+
+              <h3 class="project-title">Visual Produt Search (VPS)</h3>
               <p>Visual Product Search is a product to implemet search product in ecommerce website using image instead of just text</p>
-              <p>Laravel, Magento , Javascript , Machine Learning</p>
-           <p>Magento Plugin Link <a href="https://marketplace.magento.com/accelx-dbl-visualsearch.html">This product is approved my magento marketplace</a></p>
+              <p class="expertise-area">Laravel, Magento , Javascript , Machine Learning</p>
+           <p  class="link-area">Magento Plugin Link <a href="https://marketplace.magento.com/accelx-dbl-visualsearch.html">This product is approved my magento marketplace</a></p>
             </a>
           </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
 
 
-              <h3>Iskander Air Traveling Solution</h3>
+              <h3 class="project-title">Iskander Air Traveling Solution</h3>
               <p>
                 Tourist can select their package and pay the
                 bill by payment API. In backend admin can
                 create package , Tourist can create package by
                 customizing their requirements.</p>
-              <p>PHP , Codeigniter , MYSQL , AJAX ,JQUERY, SMS GATEWAY, DATATBLE , HTML, CSS, BOOTSTRAP</p>
-            <p class="card-text" >Imgur : <a href="https://imgur.com/a/Qtd0vJ0">Iskander Air at a glance </a>
+              <p class="expertise-area">PHP , Codeigniter , MYSQL , AJAX ,JQUERY, SMS GATEWAY, DATATBLE , HTML, CSS, BOOTSTRAP</p>
+            <p class="card-text link-area" >Imgur : <a href="https://imgur.com/a/Qtd0vJ0">Iskander Air at a glance </a>
             <p class="card-text" >Their Website <a href="https://iskanderair.com">Iskander Air</a>
             </p>
-          </div>  <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-
-
-              <h3>Happy Restaurent CMS </h3>
-              <p>
-                This is like a complete CMS for restraurant
-                management system. Users can reserve menu and see
-                the details of restaurant’s branches and details. Tourist also can reserve places by this website to any branches.</p>
-              <p>PHP , Codeigniter , MYSQL , AJAX ,JQUERY, SMS GATEWAY, DATATBLE , HTML, CSS, BOOTSTRAP</p>
-
-          <p class="card-text" >Imgur : <a href="https://imgur.com/a/SIjzih5">Happy Restaurant  at a glance </a>
-          <p class="card-text" >Live : <a href="http://happyrestaurant.jp/">Happy Restaurant</a>
-          </p>
           </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
 
-
-              <h3>Adorn Publications  Website</h3>
-              <p>This Website is is developed in core php . Admin can add new books , feature books for sliders. User can add books to their cart and checkout from there </p>
-            .</p>
-            <p class="card-text" style="font-weight: bold;">PHP ,JAVASCRIPT, MYSQL , AJAX ,JQUERY,HTML, CSS, BOOTSTRAP
-            </p>
-            <!--
-            -->
-            <p class="card-text" >Live : <a href="http://www.adornbooks.com/">Adorn Books</a>
-            </p>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-
-
-              <h3>Online Exam System WITH PAYMENT METHOD</h3>
-            <p>Online Mcq exam system with payment system . Admin can set differnt questions and examinee can take their exam. Examinee can pay their bill through payment gateway system.
-            </p>
-            <p class="card-text" style="font-weight: bold;">PHP , CODEIGNITER ,JAVASCRIPT, MYSQL ,PAYMENT GATEWAY, AJAX ,JQUERY, DATATABLE , HTML, CSS, BOOTSTRAP
-            </p>
-            <p class="card-text" >Live : <a href="http://mcq.amconlinecoaching.com">Online Exam System</a>
-            </p>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-
-
-              <h3>Lalon Utshob Competition</h3>
-            <p>Rotary Foundation created a competition ROTARY LALON UTSHOB , where peoples can register and participate to the competition</p>
-            </p>
-            <p class="card-text" style="font-weight: bold;">PHP , CODEIGNITER ,JAVASCRIPT, MYSQL , AJAX ,JQUERY, DATATABLE , HTML, CSS, BOOTSTRAP
-            </p>
-           <p class="card-text" >Live : <a href="http://rotarylalonutsab.com">Rotary Lalon Utshob</a>
-            </p>
-          </div>
 
           
         </div>
-      </div>
+        <div id="posts" class="row no-gutter " >
+
+
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
+
+
+            <h3 class="project-title">Happy Restaurent CMS </h3>
+            <p>
+              This is like a complete CMS for restraurant
+              management system. Users can reserve menu and see
+              the details of restaurant’s branches and details. Tourist also can reserve places by this website to any branches.</p>
+            <p  class="expertise-area">PHP , Codeigniter , MYSQL , AJAX ,JQUERY, SMS GATEWAY, DATATBLE , HTML, CSS, BOOTSTRAP</p>
+
+            <p class="card-text link-area " >Imgur : <a href="https://imgur.com/a/SIjzih5">Happy Restaurant  at a glance </a>
+            <p class="card-text link-area" >Live : <a href="http://happyrestaurant.jp/">Happy Restaurant</a>
+            </p>
+          </div>
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
+
+
+            <h3 class="project-title">Adorn Publications  Website</h3>
+            <p>This Website is is developed in core php . Admin can add new books , feature books for sliders. User can add books to their cart and checkout from there </p>
+            .</p>
+            <p class=" expertise-area" style="font-weight: bold;">PHP ,JAVASCRIPT, MYSQL , AJAX ,JQUERY,HTML, CSS, BOOTSTRAP
+            </p>
+            <!--
+            -->
+            <p class="card-text link-area" >Live : <a href="http://www.adornbooks.com/">Adorn Books</a>
+            </p>
+          </div>
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
+
+
+            <h3 class="project-title">Online Exam System WITH PAYMENT METHOD</h3>
+            <p>Online Mcq exam system with payment system . Admin can set differnt questions and examinee can take their exam. Examinee can pay their bill through payment gateway system.
+            </p>
+            <p class="expertise-area" style="font-weight: bold;">PHP , CODEIGNITER ,JAVASCRIPT, MYSQL ,PAYMENT GATEWAY, AJAX ,JQUERY, DATATABLE , HTML, CSS, BOOTSTRAP
+            </p>
+            <p class="card-text link-area" >Live : <a href="http://mcq.amconlinecoaching.com">Online Exam System</a>
+            </p>
+          </div>
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4  full-project">
+
+
+            <h3 class="project-title">Lalon Utshob Competition</h3>
+            <p>Rotary Foundation created a competition ROTARY LALON UTSHOB , where peoples can register and participate to the competition</p>
+            </p>
+            <p class="expertise-area" style="font-weight: bold;">PHP , CODEIGNITER ,JAVASCRIPT, MYSQL , AJAX ,JQUERY, DATATABLE , HTML, CSS, BOOTSTRAP
+            </p>
+            <p class="card-text link-area" >Live : <a href="http://rotarylalonutsab.com">Rotary Lalon Utshob</a>
+            </p>
+          </div>
+
+        </div>
+        </div>
 
     </section>
 
