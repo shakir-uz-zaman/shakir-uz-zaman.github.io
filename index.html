@@ -29,9 +29,9 @@
   
 <style>
 
-  .full-body {
+  /* .full-body {
     animation: pulse 5s infinite;
-  }
+  } */
 
   @keyframes pulse {
     0% {
@@ -43,16 +43,20 @@
   }
   .project-title{
 
-    background-color: beige;
+    /* background-color: beige; */
     width: 100%;
   }
   .project-title:hover{
     color: beige;
-    background-color:brown;
+    /* background-color:brown; */
+    font-size:28px;
   }
 
   .full-project{
     background-color: whitesmoke;
+    border: 3px solid rgb(216, 86, 86);
+    padding: 20px;
+    height: auto;
 
   }
   .full-project:hover{
@@ -90,7 +94,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#services-section" class="nav-link">Services</a></li>
+                <!-- <li><a href="#services-section" class="nav-link">Services</a></li> -->
                 <li><a href="#about-section" class="nav-link">About</a></li>
                 
               </ul>
@@ -142,64 +146,15 @@
         </div>
       </div>
 
-      <img style="width: 50%; opacity:.4;margin-top: 3%;" src="images/image11.jpg" alt="Image" class="img-face" data-aos="fade">
+      <img style="    width: 12%;
+      opacity: 01;
+     
+      margin-right: 20%;
+      
+      margin-bottom: 15%;" src="images/propic.jpg" alt="Image" class="img-face" data-aos="fade">
 
       
     </div>  
-
-    
-
-    
-    <div class="site-section" id="services-section">
-      <div class="container">
-        <div class="row ">
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">My Services</h2>
-          </div>
-          
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-style"></span></div>
-              <div class="service-about">
-                <h3>Web Developement</h3>
-                <p>I love to make solutios that reduces complexity of our life. Love to design web based solutions that can help people to make their business more successfull. </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-business_center"></span></div>
-              <div class="service-about">
-                <h3>Magento Developement</h3>
-                <p>Magento is one of the great solution if someone needs a ecommerce. To customize magento website  as clients demands is one of my expertise</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-desktop_windows"></span></div>
-              <div class="service-about">
-                <h3>Customize Product Developemt</h3>
-                <p>I prefer to create some software based solutions and love to work on those projects in my free time.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-layers"></span></div>
-              <div class="service-about">
-                <h3>Web Design</h3>
-                <p>Everyone wants to make their product beautiful. It is one of my expertise too !</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
 
     <div class="site-section" id="about-section">
       <div class="container">
@@ -242,8 +197,21 @@
         </div>
 
         
-        <div id="posts" class="row no-gutter " >
+        <div id="post" class="row no-gutter " >
 
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
+
+
+              <h3 class="project-title">NSL Assessment center</h3>
+              <p>Educational and corporate organization can take assessment to assess cadidates through the system. This system can be also used as a CV bank.</p>
+              <p class="expertise-area">PHP , Laravel , MYSQL, PostgreSQL, Javascript, DATATBLE , HTML, CSS, BOOTSTRAP</p>
+
+              </p>
+
+
+
+
+          </div>
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
 
 
@@ -281,11 +249,6 @@
             <p class="card-text" >Their Website <a href="https://iskanderair.com">Iskander Air</a>
             </p>
           </div>
-
-
-          
-        </div>
-        <div id="posts" class="row no-gutter " >
 
 
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4 full-project">
@@ -337,6 +300,11 @@
             <p class="card-text link-area" >Live : <a href="http://rotarylalonutsab.com">Rotary Lalon Utshob</a>
             </p>
           </div>
+          
+        </div>
+        <div id="posts" class="row no-gutter " >
+
+
 
         </div>
         </div>
@@ -408,8 +376,8 @@
             <h2 class="section-title text-center mb-5">Contact Details</h2>
           </div>
         </div>
-        <p>Email : shakir.uz.zaman.shuvo@gmail.com</p>
-        <p>Skype : 01738790641</p>
+        <p>Email : zaman.shakirdev@gmail.com</p>
+        <p>Skype : shakir.uz.zaman.shuvo@outlook.com</p>
         <p>Whatsapp : +8801738790641</p>
       </div>
     </section>
@@ -424,12 +392,7 @@
           <div class="col-md-5 mx-auto">
             <div class="row">
               <div class="col-lg-4">
-                <h3 class="footer-title">Services</h3>
-                <ul class="list-unstyled">
-                  <li><a href="#">Web Development</a></li>
-                  <li><a href="#">Magento Development</a></li>
-                  <li><a href="#">Customize Software Solution</a></li>
-                </ul>
+                &nbsp;
               </div>
 
 
